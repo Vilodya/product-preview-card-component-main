@@ -28,18 +28,10 @@ Users should be able to:
 
 ![](./screenshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Vilodya/product-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://vilodya.github.io/product-preview-card-component-main/)
+- Solution URL: [solution URL](https://github.com/Vilodya/product-preview-card-component-main)
+- Live Site URL: [live site URL](https://vilodya.github.io/product-preview-card-component-main/)
 
 ## My process
 
@@ -54,9 +46,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Creating a full-screen section — I learned to use min-height: 100vh to make a section take up the full height of the browser window.
 
-To see how you can add code snippets, see below:
+Fixing the footer at the bottom — I understood how to use a flex container (display: flex; flex-direction: column;) and margin-top: auto to stick the footer to the bottom, even when there isn't much content.
 
 ```css
 body {
@@ -77,5 +69,5 @@ main {
 
 ## Author
 
-- Website - [Add your name here](https://www.linkedin.com/in/vladimir--denisov)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Vilodya)
+- Website - [LinkedIn](https://www.linkedin.com/in/vladimir--denisov)
+- Frontend Mentor - [@Vilodya](https://www.frontendmentor.io/profile/Vilodya)
