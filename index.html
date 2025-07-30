@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Product preview card component</title>
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/variables.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="body">
+  <main class="main">
+    <div class="card">
+      <div class="card__image">
+        <picture>
+          <source srcset="./images/image-product-mobile.jpg" media="(max-width: 600px)">
+          <img src="./images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum" loading="lazy">
+        </picture>
+      </div>
+      <div class="card__content">
+        <div class="card__label">Perfume</div>
+        <h1 class="card__title">Gabrielle Essence Eau De Parfum</h1>
+        <p class="card__text">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of&nbsp;CHANEL.</p>
+        <div class="product-price">
+          <div class="product-price__new">$149.99</div>
+          <div class="product-price__old">$169.99</div>
+        </div>
+        <button class="button card__button">
+          <img src="./images/icon-cart.svg" alt="icon-cart" class="button__icon">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="attribution__link" href="https://github.com/Vilodya" target="_blank">Vilodya</a>.
+  </div>
+</body>
+</html>
